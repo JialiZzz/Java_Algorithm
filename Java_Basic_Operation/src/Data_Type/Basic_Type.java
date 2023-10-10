@@ -14,13 +14,12 @@ import java.util.List;
 
 /*
 Basic data type
-
 */
 
 public class Basic_Type {
     private final int constant = 10;    //unchanged keyword "final"
     /*
-    Primitive Data Type
+    Primitive Data Type     don't have relative method
     */
     
     private void initNum(){

@@ -18,7 +18,8 @@ public class int_Operation {
         this.num = 15;
     }
     /*
-    加法 减法 乘法 除法 取余 不等 自增自减
+    加法 减法 乘法 除法 取余 不等 自增自减  
+    primitive type don't have relative method
     */
     private void int_Basic_Operation(){
         int sum = 12+15;
