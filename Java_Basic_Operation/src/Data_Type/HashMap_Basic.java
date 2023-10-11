@@ -10,6 +10,7 @@ import java.util.Map;
 /**
  *
  * @author 15469
+ * FIFO
  */
 public class HashMap_Basic {
     private Map<String,Integer> dict;

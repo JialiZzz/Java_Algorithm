@@ -29,6 +29,31 @@ public class LinkedList_Basic {
         }
     }
     
+    /*
+    situation: null, position not exist, head, middle, end
+     */
+    public void insert(int position, int data){
+        if(head==null){
+            return;
+        }
+        Node current = head;
+        Node newNode = new Node(data);
+        Node preNode,nextNode;
+        if(position==0){
+            newNode.next=head;
+            head = newNode;
+            return;
+        }
+        for(int i = 0; i<position; i++){
+            if(current==null){
+                return;
+            }
+            preNode = current;
+            current = current.next;
+        }
+        nextNode = current.next;
+        if(nextNode==null){}
+    }
     
     public void append(int data){
         Node newNode = new Node(data);
@@ -42,11 +67,6 @@ public class LinkedList_Basic {
         }
         current.next = newNode;
     }
-    
-    public void insert(int i){
-        
-    }
-    
     
     
     /*
