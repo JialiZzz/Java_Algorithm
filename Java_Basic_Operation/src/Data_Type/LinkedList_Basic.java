@@ -105,6 +105,27 @@ public class LinkedList_Basic {
         }
     }
     
+    public Node reverse(){
+        
+        //point to pre current next  
+        //null exist
+        if(head==null){
+            return null;
+        }
+        Node pre=null;
+        Node current=head;
+        Node next=current.next;
+        while(current!=null){
+            next=current.next;
+            current.next=pre;
+            pre = current;
+            current = next;
+        }
+        head=pre;
+        return pre;
+    }
+    
+    
         public static void main(String[] args) {
         LinkedList_Basic list = new LinkedList_Basic();
         Node deleted = new LinkedList_Basic.Node(2);
@@ -114,6 +135,12 @@ public class LinkedList_Basic {
         list.printList(); // 输出：1 2 3
         list.delete(1); // 删除值为3的节点
         list.printList(); // 输出：2 3
+
+        System.out.println();
+        list.append(3);
+        list.append(3) ;      
+        list.reverse();
+        list.printList(); // 输出：3 3 3 2
     }
     
 }
