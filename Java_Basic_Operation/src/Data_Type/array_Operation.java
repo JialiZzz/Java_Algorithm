@@ -5,6 +5,7 @@
 package Data_Type;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  *
@@ -16,8 +17,10 @@ public class array_Operation {
     
     /*initialize reference using new keyword*/
     public array_Operation(){
+        // 0-4 range
         this.strArray=new String[5];
         this.strArrayList = new ArrayList<>();
+        Arrays.sort(strArray, 0, 0);
     }
     
     private void array_Basic_Operation(){
