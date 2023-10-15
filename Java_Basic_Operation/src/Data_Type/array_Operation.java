@@ -27,6 +27,7 @@ public class array_Operation {
         for(String str : strArray){
             str.indexOf("0");               //find index
         }
+        StringBuilder str = new StringBuilder();
         strArrayList.add("dadad");            //add
         strArrayList.remove("dadad");         //delete
         strArrayList.contains("sdada");       //find if exist
