@@ -25,7 +25,8 @@ public class RemoveN {
         List<ListNode> map = new ArrayList<>();
         if(head==null) return head;
         if(head.next==null&&n==1) return null;
-
+        String s ="";
+        s.charAt(1);
 
         //-n
         ListNode current = head;
