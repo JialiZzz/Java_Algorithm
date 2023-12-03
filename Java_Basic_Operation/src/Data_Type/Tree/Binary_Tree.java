@@ -13,7 +13,7 @@ public class Binary_Tree {
             return node;
         }
         else if(data < root.getData()){
-            root.setLeftNode(insertHelper( root.getLeftNode(), node));
+            root.setLeftNode(insertHelper(root.getLeftNode(), node));
         }
         else if(data > root.getData()){
             root.setRightNode(insertHelper(root.getRightNode(),node));
@@ -22,7 +22,7 @@ public class Binary_Tree {
     }
 
     public void display(){
-        displayHelper( root);
+        displayHelper(root);
 
     }
 
