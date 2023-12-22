@@ -21,6 +21,7 @@ public class array_Operation {
         this.strArray=new String[5];
         this.strArrayList = new ArrayList<>();
         Arrays.sort(strArray, 0, 0);
+
     }
 
     public static String reverse(String str){

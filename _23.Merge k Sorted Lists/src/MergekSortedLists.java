@@ -1,5 +1,49 @@
 public class MergekSortedLists {
         int s;
+
+
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        ListNode head1=list1;
+        ListNode head2=list2;
+        ListNode head = new ListNode();
+        ListNode cur=head;
+        //if head1 or head2 is null, return another one
+        if(head1 == null){
+            return list2;
+        }
+        if(head2 == null){
+            return list1;
+        }
+        while(head1!=null||head2!=null){
+            if(head1!=null&&head2!=null){
+                if(head1.val<head2.val){
+                    cur.next=head1;
+                    cur=cur.next;
+                    head1=head1.next;
+                }else{
+                    cur.next=head2;
+                    cur=cur.next;
+                    head2=head2.next;
+                }
+            }
+            else if(head1==null){
+                cur.next=head2;
+                break;
+            }
+            else if(head2==null){
+                cur.next=head1;
+                break;
+            }
+
+
+
+        }
+
+        return head.next;
+
+    }
+
+
       public static class ListNode {
           int val;
           ListNode next;

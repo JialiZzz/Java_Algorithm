@@ -23,9 +23,10 @@ public class Str_Operation {
         String lowerStr = str.toLowerCase();
         String replaceStr = str.replace("Target", "Replacement");
         str = str+10;   //String str10
-        String txt = "   New Line \n   Carriage Return \r   Tab\t*** Backspace\b "; 
-        
+        String txt = "   New Line \n   Carriage Return \r   Tab\t*** Backspace\b ";
         if(txt.equals(txt)){}
+        String s = "asdd";
+
     }
     
     

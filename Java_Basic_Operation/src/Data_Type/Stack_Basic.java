@@ -6,6 +6,8 @@ package Data_Type;
 
 import java.util.Stack;
 
+import static java.lang.Math.max;
+
 /**
  *
  * @author 15469
@@ -25,7 +27,7 @@ public class Stack_Basic {
         // 查看栈顶元素
         int topElement = stack.peek();
         System.out.println("栈顶元素：" + topElement); // 输出 2
-
+        stack.peek();
         // 判断栈是否为空
         boolean isEmpty = stack.isEmpty();
         System.out.println("栈是否为空：" + isEmpty); // 输出 false

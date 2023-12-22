@@ -4,8 +4,10 @@
  */
 package Data_Type;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  *
@@ -30,6 +32,12 @@ public class HashMap_Basic {
     public void Contain(){
         dict.containsKey("Key");    //if exist key
         dict.containsValue(12);    //if exist value
+        for(String s : dict.keySet()){
+
+        }
+
+        Object[][] array1 = new Object[8][8];
+        Arrays.fill(array1,-1);
     }
     public void isEmpty(){             //return true if empty
         dict.isEmpty();

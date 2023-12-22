@@ -19,7 +19,7 @@ public class Binary_Search {
     public static void main(String[] args){
         int[] arr = {1,2,7,8,9,10};
 
-        int k =binary_search(arr,10,0,arr.length-1);
+        int k =binary_search(arr,7,0,arr.length-1);
         System.out.println(k);
     }
 
