@@ -4,10 +4,7 @@
  */
 package Data_Type;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 /**
  *
@@ -35,7 +32,8 @@ public class HashMap_Basic {
         for(String s : dict.keySet()){
 
         }
-
+        HashSet<Integer>hm=new HashSet<>();
+        
         Object[][] array1 = new Object[8][8];
         Arrays.fill(array1,-1);
     }
