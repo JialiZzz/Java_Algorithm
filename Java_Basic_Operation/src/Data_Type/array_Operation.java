@@ -20,6 +20,8 @@ public class array_Operation {
         // 0-4 range
         this.strArray=new String[5];
         this.strArrayList = new ArrayList<>();
+        strArrayList.remove(-1);
+
         Arrays.sort(strArray, 0, 0);
 
     }

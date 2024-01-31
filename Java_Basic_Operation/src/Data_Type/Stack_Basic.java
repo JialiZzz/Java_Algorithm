@@ -4,6 +4,8 @@
  */
 package Data_Type;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 
 import static java.lang.Math.max;
@@ -14,12 +16,13 @@ import static java.lang.Math.max;
  */
 public class Stack_Basic {
     private Stack<Integer> stack;
-    
+    private Queue<Integer>queue=new PriorityQueue<>();
     private void basic_Operation(){
         stack.push(1);
         stack.push(2);
         stack.push(3);
-
+        queue.poll();
+        queue.offer(2);
         // 弹出栈顶元素
         int poppedElement = stack.pop();
         System.out.println("弹出的元素：" + poppedElement); // 输出 3

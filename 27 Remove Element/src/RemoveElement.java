@@ -28,5 +28,23 @@ public class RemoveElement {
         for(int k: mun){
             System.out.print(k+" ");
         }
+
+        long startTime = System.currentTimeMillis();
+
+        // 在这里放入你的代码
+        // ...
+
+        // 获取结束时间
+        for(int i=0;i<10000000;i++){
+
+        }
+        long endTime = System.currentTimeMillis();
+
+        // 计算运行时间（毫秒）
+        long executionTime = endTime - startTime;
+
+        System.out.println("代码运行时间：" + executionTime + " 毫秒");
+
+
     }
 }

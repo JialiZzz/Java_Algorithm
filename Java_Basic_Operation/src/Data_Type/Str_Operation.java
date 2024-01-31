@@ -19,6 +19,8 @@ public class Str_Operation {
     
     public void Str_Basic_Operation(){
         int len = str.length();
+        StringBuilder k = new StringBuilder();
+
         String upperStr = str.toUpperCase();
         String lowerStr = str.toLowerCase();
         String replaceStr = str.replace("Target", "Replacement");

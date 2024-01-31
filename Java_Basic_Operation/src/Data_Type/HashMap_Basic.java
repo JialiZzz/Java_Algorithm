@@ -6,6 +6,8 @@ package Data_Type;
 
 import java.util.*;
 
+import static java.lang.Math.random;
+
 /**
  *
  * @author 15469
@@ -33,7 +35,9 @@ public class HashMap_Basic {
 
         }
         HashSet<Integer>hm=new HashSet<>();
+        ArrayList<Integer>[] a = new ArrayList[4];
         
+
         Object[][] array1 = new Object[8][8];
         Arrays.fill(array1,-1);
     }
