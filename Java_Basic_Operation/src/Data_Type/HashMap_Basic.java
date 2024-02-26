@@ -34,6 +34,7 @@ public class HashMap_Basic {
         for(String s : dict.keySet()){
 
         }
+        dict.values();
         HashSet<Integer>hm=new HashSet<>();
         ArrayList<Integer>[] a = new ArrayList[4];
         

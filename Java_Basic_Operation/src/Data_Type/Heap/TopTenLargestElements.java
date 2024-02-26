@@ -1,6 +1,7 @@
 package Data_Type.Heap;
 
 import java.util.PriorityQueue;
+import java.util.TreeSet;
 
 public class TopTenLargestElements {
     public static int[] findTopTenLargestElements(int[] arr) {
@@ -33,6 +34,9 @@ public class TopTenLargestElements {
         for (int num : topTenLargest) {
             System.out.print(num + " ");
         }
+        PriorityQueue<Integer>heap = new PriorityQueue<>();
+        TreeSet<Integer>ree = new TreeSet<>();
+
     }
 
 }
