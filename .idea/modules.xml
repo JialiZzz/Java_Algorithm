@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Graph_new/Graph_new.iml" filepath="$PROJECT_DIR$/Graph_new/Graph_new.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Java_Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Basic_Operation/Java_Basic_Operation.iml" filepath="$PROJECT_DIR$/Java_Basic_Operation/Java_Basic_Operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_basic/Java_basic.iml" filepath="$PROJECT_DIR$/Java_basic/Java_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongestPalindromic/LongestPalindromic.iml" filepath="$PROJECT_DIR$/LongestPalindromic/LongestPalindromic.iml" />
       <module fileurl="file://$PROJECT_DIR$/MedianofTwoSortedArray/MedianofTwoSortedArray.iml" filepath="$PROJECT_DIR$/MedianofTwoSortedArray/MedianofTwoSortedArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/Remove Nth Node from End/Remove Nth Node from End.iml" filepath="$PROJECT_DIR$/Remove Nth Node from End/Remove Nth Node from End.iml" />
@@ -22,6 +23,9 @@
       <module fileurl="file://$PROJECT_DIR$/_200.Num of Islands/_200.Num of Islands.iml" filepath="$PROJECT_DIR$/_200.Num of Islands/_200.Num of Islands.iml" />
       <module fileurl="file://$PROJECT_DIR$/_25.Reverse Nodes in k-Group/_25.Reverse Nodes in k-Group.iml" filepath="$PROJECT_DIR$/_25.Reverse Nodes in k-Group/_25.Reverse Nodes in k-Group.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4. Median of Two Sorted Arrays/_4. Median of Two Sorted Arrays.iml" filepath="$PROJECT_DIR$/_4. Median of Two Sorted Arrays/_4. Median of Two Sorted Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_basic/feature/feature.iml" filepath="$PROJECT_DIR$/Java_basic/feature/feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_basic/looping/looping.iml" filepath="$PROJECT_DIR$/Java_basic/looping/looping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_basic/variable/variable.iml" filepath="$PROJECT_DIR$/Java_basic/variable/variable.iml" />
     </modules>
   </component>
 </project>
